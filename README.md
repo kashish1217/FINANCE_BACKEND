@@ -111,6 +111,16 @@ python manage.py runserver
 
 ---
 
+📌 API Endpoints
+🧑 Register User
+
+POST /api/register/
+
+{
+  "username": "your_username",
+  "password": "your_password"
+}
+
 ## 📊 Sample Response
 
 json
@@ -132,12 +142,9 @@ json
 
 ---
 
-## 🌐 Live API
+🚀 Live API
 
-(Add your deployment link here after deploying)
-
-https://your-app.onrender.com
-
+🔗 https://finance-backend-ovlz.onrender.com/
 ---
 
 ## 🧠 Assumptions
@@ -155,12 +162,6 @@ https://your-app.onrender.com
 * Search functionality
 * PostgreSQL integration
 * Docker deployment
-
----
-
-## 👨‍💻 Author
-
-Abhay Sinha
 
 ---
 
